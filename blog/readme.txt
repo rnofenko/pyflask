@@ -3,3 +3,4 @@ python -m venv venv
 venv\Scripts\activate
 pip install flask
 SET FLASK_APP=microblog.py
+flask run
