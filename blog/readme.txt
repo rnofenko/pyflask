@@ -26,3 +26,5 @@ flask db migrate -m "new fields in user model"
 flask db upgrade
 flask db history
 flask db current
+
+python -m smtpd -n -c DebuggingServer localhost:8025
