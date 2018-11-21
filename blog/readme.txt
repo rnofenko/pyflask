@@ -23,6 +23,7 @@ flask db init
 flask db migrate -m "users table"
 flask db migrate -m "posts table"
 flask db migrate -m "new fields in user model"
+flask db migrate -m "followers"
 flask db upgrade
 flask db history
 flask db current
